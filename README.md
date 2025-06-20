@@ -215,4 +215,34 @@ Modern evergreen browsers.
 Similar to the previous version, primarily related to client-side processing power and storage.
 
 ## License
-MIT License. (Details as before)
+[MIT License](./LICENSE.md).
+
+## TODO
+
+The following best practices and improvements are recommended for future development:
+
+- **Robust Logging:**
+  - Integrate a logging library (e.g., winston, pino, loglevel) for structured, level-based logging instead of relying on `console.log`.
+  - Ensure logs are environment-aware (verbose in dev, minimal in prod) and never leak sensitive data.
+- **Configuration Management:**
+  - Implement a configuration manager or utility to centralize and validate environment/config variables.
+  - Support for `.env`, `.env.local`, and runtime overrides with clear documentation.
+- **Security Hardening:**
+  - Review and minimize client-side exposure of environment variables (only expose those needed by the UI).
+  - Audit all error messages and logs to ensure no secrets or sensitive data are ever exposed.
+  - Consider Content Security Policy (CSP) headers and other browser security best practices.
+  - Harden Docker and Compose setup (non-root user, resource limits, network isolation, etc.).
+- **Testing:**
+  - Add automated tests (unit, integration, and E2E) for critical logic, especially document parsing and LLM interactions.
+- **Accessibility:**
+  - Review and improve accessibility (a11y) of the UI for all users.
+- **Performance:**
+  - Profile and optimize client-side performance, especially for large documents and embedding operations.
+- **Documentation:**
+  - Expand documentation for configuration, deployment, and troubleshooting.
+- **TypeScript Strictness:**
+  - Enable strict mode in `tsconfig.json` and address any type issues (e.g., `import.meta.env` typing).
+- **Dependency Management:**
+  - Regularly audit and update dependencies for security and compatibility.
+
+Feel free to contribute or open issues for any of the above!
