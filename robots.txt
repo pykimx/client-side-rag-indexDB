@@ -1,0 +1,7 @@
+# robots.txt
+# Copied verbatim from sample as required by project prompt.
+
+User-agent: *
+Disallow: /
+
+# End of robots.txt

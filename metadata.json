@@ -1,0 +1,6 @@
+{
+  "name": "Docker - Client-Side RAG Chat with Documents",
+  "description": "An application that allows users to chat with their documents. Document processing and AI interactions happen client-side for enhanced privacy, using local embeddings and the Gemini API for generation.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

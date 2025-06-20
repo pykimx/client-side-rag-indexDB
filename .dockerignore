@@ -1,0 +1,34 @@
+# Git
+.git
+.gitignore
+
+# Node modules
+node_modules
+
+# Vite build cache
+.vite
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Build output (handled by Docker multi-stage build)
+# dist/ # If you don't want to copy pre-built dist into context for some reason
+#         However, often `dist` is not present before `docker build`
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Test coverage
+coverage/
