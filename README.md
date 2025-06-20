@@ -60,11 +60,11 @@ This application empowers users to chat with their documents directly in the bro
 |  - Loads embedding models and LLM SDKs                                                      |
 |  - Chunks and embeds documents                                                              |
 |  - Stores/retrieves chunks and vectors in IndexedDB <-------------------+                   |
-|  - Performs semantic search                                                                |                   |
-|  - Calls LLM APIs (Gemini, OpenAI, Ollama) for answer generation                           |
-+-----------------------------^--------------------------------------------------------------+
-                              | (IndexedDB API)                                              |
-+-----------------------------|--------------------------------------------------------------+
+|  - Performs semantic search                                                                 |
+|  - Calls LLM APIs (Gemini, OpenAI, Ollama) for answer generation                            |
++-----------------------------^---------------------------------------------------------------+
+                              | (IndexedDB API)                                               |
++-----------------------------|---------------------------------------------------------------+
                               v                                                               |
 +---------------------------------------------------------------------------------------------+
 |  IndexedDB (Browser Local Database)                                                         |
