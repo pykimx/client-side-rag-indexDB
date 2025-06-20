@@ -1,4 +1,3 @@
-
 /*
   file name: public/worker.js
   file description: Web Worker script responsible for background tasks: initializing AI models (embedding and LLM SDKs), processing documents into chunks, generating embeddings, storing/retrieving from IndexedDB, performing semantic search, and interacting with LLM APIs.

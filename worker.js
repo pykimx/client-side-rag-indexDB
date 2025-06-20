@@ -14,7 +14,7 @@
   let GEMINI_API_KEY = ''; 
   let GOOGLE_GENAI_CDN_URL = '';
   
-  let SELECTED_LLM_PROVIDER = 'gemini';
+  let SELECTED_LLM_PROVIDER = 'ollama'; // Default provider, can be 'gemini', 'openai', or 'ollama'
   let OPENAI_API_KEY = '';
   let OLLAMA_BASE_URL = '';
   let ACTIVE_GENERATION_MODEL = ''; // Unified variable for the current generation model

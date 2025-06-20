@@ -1,4 +1,3 @@
-
 /*
   file name: src/index.tsx
   file description: Main entry point for the React application. Renders the App component into the DOM.

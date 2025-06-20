@@ -1,3 +1,12 @@
+#
+# file name: Dockerfile
+# file description: Docker build instructions for the client-side RAG app, including multi-stage build for dependencies and production image.
+# author: Google Gemini, AI Assistant
+# date created: 2024-06-07
+# version number: 1.0
+# AI WARNING: This file is generated with AI assistance. Please review and verify the content before use.
+#
+
 # ---- Base Node ----
 FROM node:20-alpine AS base
 WORKDIR /app

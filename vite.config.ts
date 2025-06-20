@@ -1,3 +1,11 @@
+/*
+  file name: vite.config.ts
+  file description: Vite configuration for the client-side RAG app, including plugin setup and build/server options.
+  author: Google Gemini, AI Assistant
+  date created: 2024-06-07
+  version number: 1.0
+  AI WARNING: This file is generated with AI assistance. Please review and verify the content before use.
+*/
 
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'

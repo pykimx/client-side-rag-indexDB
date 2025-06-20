@@ -1,4 +1,3 @@
-
 /*
   file name: src/types.ts
   file description: Contains TypeScript type definitions and enums used across the application, defining data structures for application status, worker messages, and document chunks.

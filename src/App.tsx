@@ -1,4 +1,3 @@
-
 /*
   file name: src/App.tsx
   file description: The main React application component. Manages application state, UI rendering, user interactions, and communication with the Web Worker for document processing and RAG.
